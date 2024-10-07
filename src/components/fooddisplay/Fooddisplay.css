@@ -1,0 +1,17 @@
+.food-i{
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px 230px 230px;
+    margin-top: 30px;
+    padding: 0px 10px;
+    gap: 20px;
+    row-gap: 50px;
+}
+@media (max-width:480px) {
+    .food-i{
+        display: grid;
+        grid-template-columns: 330px 330px ;
+        margin-top: 30px;
+        gap: 30px;
+        row-gap: 50px;
+    }
+}

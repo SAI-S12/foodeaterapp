@@ -1,0 +1,31 @@
+.appdownload{
+margin: auto auto;
+margin-top: 100px;
+font-size: max(3vw ,20px);text-align: center;
+font-weight: 500;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.apps img{
+    width: 180px;
+    margin-bottom: 40px;
+}
+@media (max-width:480px) {
+    .apps{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .appdownload{
+        margin-top: 100px;
+        font-size: max(3vw ,20px);text-align: center;
+        font-weight: 500;
+        width: 100%;
+        }
+}

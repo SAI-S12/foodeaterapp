@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.back{
+    height: 100%;
+    width: 100%;
+    background-color: #00000090;
+    position: absolute;
+    top: 0px;
+    z-index: 99;
+    
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.log img{
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+.login-pop{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 2px;
+}
+.log h2{
+    font-size: 30px ;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+input{
+    width: 85%;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+}
+.pop-inp{
+    padding: 10px 20px;
+}
+.login-pop button{
+    width: 75%;
+     border: none;
+     padding: 5px;
+     border-radius: 3px;
+     color: white;
+     background-color:rgb(228, 13, 13);
+     font-size: 15px;
+     cursor: pointer;
+     margin-left: 40px;
+     margin-top: 15px;
+}
+.con{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.con input{
+    margin-left: 10px;
+    width: 15px;
+}
+.con p{
+    font-size: 12px;
+    margin-top: 12px;
+}
+.con span{
+    margin-left: 60px;
+}
+.a1{
+    margin-left: 40px;
+}
+.a2{
+    color: green;
+    cursor: pointer;
+}
+.b1{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.b2{
+    color: green;
+    cursor: progress;
+}
