@@ -63,22 +63,42 @@ list-style: none;
   background-color: #f00;
   padding: 5px 20px;
   color: white;
-
+ margin: 5px 10px;
 }
 .nav-middle ul a{
   font-size: 15px;
   color: black;
   font-weight: 700;
 }
+.menu{
+  color: black;
+  font-size: 30px;
+  margin-top: 10px;
+  display: none;
+}
 @media (max-width:480px) {
-
+ .nav-middle{
+  margin-top: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ position: absolute;
+ padding: 10px auto;
+ width: 100%;
+ left: 0px;
+ display: none;
+  background-color: white;
+ }
   .nav-middle ul a{
-    color: white;
-    font-size: 15px;
-    display: none;
+    color: rgb(9, 9, 9);
+    font-size: 18px;
+    margin: 10px auto;
+    display: block;
   }
   .nav-bar{
     width: 100%;
+    height: 80px;
     padding: 10px 10px;
     background-color: white;
     box-shadow: 10px 10px balck 70px;
@@ -118,13 +138,48 @@ list-style: none;
     background-color: #f00;
     padding: 5px 10px;
     color: white;
-    margin: 10px 0px;
-  
+    margin: 5px 0px;
+    display: block;
+   
   }
   .basket{
     margin-right: 10px;
     background-color: aliceblue;
     border-radius: 50px;
     padding: 5px 2px;
+    display: none;
+  }
+  .menu-1{
+    padding: 2px 2px;
+    border-radius: 4px ;
+    margin-right: -10px;
+    box-shadow: 1px 1px 2px rgb(92, 86, 86), -1px -1px 2px rgb(113, 108, 108);
+    margin-left: 5px;
+  }
+  .menu{
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+    display: block;
+
+  }
+  .nav-middle1{
+    margin-top: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   padding: 10px auto;
+   width: 100%;
+   left: 0px;
+   display: block;
+    background-color: white;
+  }
+  .nav-middle1 ul a{
+    color: rgb(9, 9, 9);
+    font-size: 18px;
+    margin: 10px auto;
+    display: block;
   }
 }

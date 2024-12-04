@@ -5,7 +5,7 @@ import "./Exploremenu.css"
 const Exploremenu = ({Category,setCategory}) => {
   return (
     <div className='explore-item' id='explore-menu'>
-        <div className="menu">
+        <div className="menu-2">
             <h1>
                 explore our menu
             </h1>
