@@ -90,4 +90,41 @@ list-style: none;
     z-index: 10;
     color: white;
   }
+  .nav-bar h1{
+    color: black;
+    font-family: "IM Fell English SC", serif;
+    font-size: 38px;
+    
+  }
+  .nav-bar{
+      width: 100%;
+      padding: 0px 10px;
+      background-color: white;
+      box-shadow: 10px 10px balck 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0px;
+      z-index: 10;
+      color: white;
+  }
+  .btn{
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    width: 80px;
+    border: none;
+    background-color: #f00;
+    padding: 5px 10px;
+    color: white;
+    margin: 10px 0px;
+  
+  }
+  .basket{
+    margin-right: 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 5px 2px;
+  }
 }

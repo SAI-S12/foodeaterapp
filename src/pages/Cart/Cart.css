@@ -32,3 +32,40 @@
     color: black;
     cursor: pointer;
 }
+@media (max-width:480px) {
+    .cart{
+        width: 50%;
+        height: 100vh;
+        background-color:white;
+        margin-top: 36px;
+        padding: 0px 10px;
+    }
+    .cart-items{
+        width: 100%;
+    }
+    .product1{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+        gap: 20px;
+        align-items: center;
+        color: grey;
+        font-size: max(1vw ,12 px);
+    }
+    #tit p{
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    #items{
+        margin: 10px 0px;
+    }
+    #items img{
+        width: 80px;
+     border-radius: 50%;
+    }
+    .rm{
+        width: 20px;
+        color: black;
+        cursor: pointer;
+    }
+}
