@@ -54,9 +54,10 @@
 @media (max-width:480px) {
     .header-conte{
         width: 100%;
-        background: url("./burger-french-fries-plate-with-copy-space.jpg") no-repeat;
-        background-size: cover ;
+        background: url("./header_img.png");
         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover ;
        
       }
       .header{
@@ -72,10 +73,10 @@
         width: 100%;
     }
     .header{
-        width: 80%;
-        padding-top: 200px;
+        width: 100%;
+        padding-top: 300px;
         color: white;
-        margin-left: 10px;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
         /* align-items: center; */
