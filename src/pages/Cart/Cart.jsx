@@ -24,7 +24,7 @@ const Cart = () => {
           if (cartItems[item._id] > 0) {
             return (
               <div className="tt">
-                <div className="product1 " id='items'>
+                <div className="product1  product2 " id='items'>
                   <img src={item.image} alt="" />
                   <p>{item.name}</p>
                   <p className='pr'>{item.price}</p>

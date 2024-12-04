@@ -49,7 +49,14 @@
         gap: 20px;
         align-items: center;
         color: grey;
-        font-size: max(1vw ,12 px);
+        /* font-size: max(1vw ,12 px); */
+    }
+    .product2{
+        display: grid;
+        grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+        gap: 20px;
+        align-items: center;
+        color: grey;
     }
     #tit p{
         color: black;
