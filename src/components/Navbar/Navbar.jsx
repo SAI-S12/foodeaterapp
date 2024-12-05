@@ -11,8 +11,7 @@ import { RxCross1 } from "react-icons/rx";
 
 const Navbar = ({setShowLogin}) => {
    const[menu,setMenu]=useState("home")
-   const[vis,setVis]=useState(flase)
-   
+   const[vis,setVis]=useState(false)
   return (
     <div className='nav-bar'>
            <Link to="/"><h1>foodeater</h1></Link>  
