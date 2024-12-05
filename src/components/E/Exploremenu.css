@@ -49,11 +49,16 @@ hr{
         display: flex;
         flex-direction: column;
         gap: 20px;
+        margin: 20px 0px;
     }
     .explore-item h1{
-        font-weight: 400;
+        font-weight: 600;
         text-transform: capitalize;
         font-size: 30px;
+    }
+    .explore-item p{
+        font-size: 15px;
+        padding: 5px;
     }
     .items{
         display: flex;

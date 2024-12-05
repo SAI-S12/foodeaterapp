@@ -2,13 +2,16 @@ import React, { useState } from 'react'
 import { assets } from '../../assets/food del assets (1)/frontend_assets/assets';
 import { Link } from 'react-router-dom';
 import { MdMenu, MdMenuBook } from 'react-icons/md';
-import { BiMenu } from 'react-icons/bi';
+import { BiCross, BiMenu } from 'react-icons/bi';
+import { TbMedicalCross } from 'react-icons/tb';
+import { CgCross } from 'react-icons/cg';
+import { RxCross1 } from "react-icons/rx";
   
 
 
 const Navbar = ({setShowLogin}) => {
    const[menu,setMenu]=useState("home")
-   const[vis,setVis]=useState(false)
+   const[vis,setVis]=useState(true)
    
   return (
     <div className='nav-bar'>
@@ -24,7 +27,7 @@ const Navbar = ({setShowLogin}) => {
         <div className="nav-right">
               <Link to='./Cart'> <img src={assets.basket_icon} alt="" className="basket" /></Link>
             <button className="btn" onClick={()=>setShowLogin(true)}>Sign-up</button>
-           <div className="menu-1"> <MdMenu className='menu' onClick={()=>(setVis(true))}/></div>
+           <div className="menu-1"> {vis?<RxCross1 className='menu' onClick={()=>(setVis(false))}/>:<MdMenu className='menu' onClick={()=>(setVis(true))}/>}</div>
         </div>
     </div>
   )

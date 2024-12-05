@@ -6,6 +6,13 @@
     gap: 20px;
     row-gap: 50px;
 }
+.food-display{
+    margin: 20px auto;
+}
+.food-display h1{
+    text-transform: capitalize;
+    font-weight: 400;
+}
 @media (max-width:480px) {
     .food-i{
         display: grid;
@@ -14,5 +21,12 @@
         margin-top: 30px;
         gap: 30px;
         row-gap: 20px;
+    }
+    .food-display{
+        margin: 20px auto;
+    }
+    .food-display h1{
+        text-transform: capitalize;
+        font-weight: 600;
     }
 }
