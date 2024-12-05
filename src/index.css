@@ -16,6 +16,12 @@
   font-size: 48px;
   
 }
+.nav-bar span{
+  color: tomato;
+  font-size: 25px;
+  font-family: "IM Fell English SC", serif;
+  text-transform: capitalize;
+}
 .nav-bar{
     width: 100%;
     padding: 0px 10px;

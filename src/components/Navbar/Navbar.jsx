@@ -14,7 +14,7 @@ const Navbar = ({setShowLogin}) => {
    const[vis,setVis]=useState(false)
   return (
     <div className='nav-bar'>
-           <Link to="/"><h1>foodeater</h1></Link>  
+           <Link to="/"><h1>fence<span>house</span></h1></Link>  
         <div className={vis?"nav-middle1":"nav-middle"}  onClick={()=>(setVis(false))}>
             <ul>
               <a href="#header"onClick={()=>setMenu("home")} className={menu==="home"?"ac":" "}>home</a>
