@@ -155,7 +155,7 @@ list-style: none;
   .menu-1{
     border-radius: 4px ;
     margin-right: -10px;
-    box-shadow: 1px 1px 2px rgb(136, 130, 130), -1px -1px 2px rgb(143, 137, 137);
+    box-shadow: 1px 1px 2px rgb(136, 130, 130), -1px -1px 2px rgb(124, 118, 118);
     margin-left: 5px;
   }
   .menu{
@@ -186,6 +186,7 @@ list-style: none;
     display: block;
     text-transform: capitalize;
     font-family: "Roboto", serif;
+    font-weight: 500;
 
   }
 }
