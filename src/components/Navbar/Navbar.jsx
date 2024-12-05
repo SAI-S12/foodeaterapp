@@ -11,7 +11,7 @@ import { RxCross1 } from "react-icons/rx";
 
 const Navbar = ({setShowLogin}) => {
    const[menu,setMenu]=useState("home")
-   const[vis,setVis]=useState(true)
+   const[vis,setVis]=useState(flase)
    
   return (
     <div className='nav-bar'>
