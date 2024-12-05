@@ -17,7 +17,7 @@
   
 }
 .nav-bar span{
-  color: tomato;
+  color:#f00;
   font-size: 25px;
   font-family: "IM Fell English SC", serif;
   text-transform: capitalize;
@@ -85,7 +85,7 @@ list-style: none;
 }
 @media (max-width:480px) {
  .nav-middle{
-  margin-top: 200px;
+  margin-top: 180px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -107,7 +107,7 @@ list-style: none;
   }
   .nav-bar{
     width: 100%;
-    height: 80px;
+    height: 60px;
     padding: 10px 10px;
     background-color: white;
     box-shadow: 10px 10px balck 70px;
@@ -160,10 +160,9 @@ list-style: none;
   }
   .menu-1{
     border-radius: 4px ;
-    margin-right: -10px;
     box-shadow: 1px 1px 2px rgb(136, 130, 130), -1px -1px 2px rgb(124, 118, 118);
     margin-left: 5px;
-    margin: 5px;
+    margin: 5px -20px 5px 5px;
   }
   .menu{
     color: black;
@@ -172,7 +171,7 @@ list-style: none;
     margin: 2px 2px;
   }
   .nav-middle1{
-    margin-top: 200px;
+    margin-top: 180px;
     display: flex;
     text-align: center;
     justify-content: center;

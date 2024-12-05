@@ -19,6 +19,12 @@
     font-size: 48px;
     color: white;
 }
+.left span{
+    color:#f00;
+    font-size: 15px;
+    font-family: "IM Fell English SC", serif;
+    text-transform: capitalize;
+}
 .left, .right, .middle{
   display: flex;
   flex-direction: column;

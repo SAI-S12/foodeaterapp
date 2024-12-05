@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer' id="foot">
         <div className="ft-content">
             <div className="left">
-                <h1>foodeater</h1>
+                <h1>fence<span>House</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus placeat facere repudiandae perferendis, laboriosam iste quibusdam quaerat at ex beatae?</p>
                  <div className="sicons">
                     <img src={assets.facebook_icon} alt="" />

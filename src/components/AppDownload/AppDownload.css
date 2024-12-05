@@ -4,6 +4,17 @@ margin-top: 100px;
 font-size: max(3vw ,20px);text-align: center;
 font-weight: 500;
 }
+.appdownload p h1{
+    color: black;
+    font-family: "IM Fell English SC", serif;
+    font-size: 48px;
+}
+.appdownload p h1 span{
+    color:#f00;
+    font-size: 25px;
+    font-family: "IM Fell English SC", serif;
+    text-transform: capitalize;
+}
 .apps{
     display: flex;
     justify-content: center;
