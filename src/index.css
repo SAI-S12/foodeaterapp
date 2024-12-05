@@ -157,6 +157,7 @@ list-style: none;
     margin-right: -10px;
     box-shadow: 1px 1px 2px rgb(136, 130, 130), -1px -1px 2px rgb(124, 118, 118);
     margin-left: 5px;
+    margin: 5px;
   }
   .menu{
     color: black;
